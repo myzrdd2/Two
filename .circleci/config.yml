@@ -5,7 +5,7 @@ jobs:
     working_directory: ~/repo
     docker:
       - image: circleci/golang:1.15.8
-    parallelism:4 
+    parallelism: 4 
     steps:
       - checkout
       - run:
